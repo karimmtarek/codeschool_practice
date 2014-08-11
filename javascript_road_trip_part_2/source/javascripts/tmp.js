@@ -17,26 +17,51 @@ function onlyEven(){
 function tmp(){
 
   var numSheep = 4;
-var monthsToPrint = 12;
+  var monthsToPrint = 12;
 
-for(var monthNumber = 1; monthNumber <= monthsToPrint; monthNumber++) {
+  for(var monthNumber = 1; monthNumber <= monthsToPrint; monthNumber++) {
 
-  if (monthNumber%4 === 0){
-    numSheep /= 4;
-    console.log("Removing " + numSheep*3 + " sheep from the population. Phew!");
-  } else if(numSheep > 10000) {
-    numSheep /= 2;
-    console.log("Removing " + numSheep + " sheep from the population. Phew!");
+    if (monthNumber%4 === 0){
+      numSheep /= 4;
+      console.log("Removing " + numSheep*3 + " sheep from the population. Phew!");
+    } else if(numSheep > 10000) {
+      numSheep /= 2;
+      console.log("Removing " + numSheep + " sheep from the population. Phew!");
+    }
+
+    // <second conditional goes here>
+
+    numSheep*=4;
+    console.log("There will be " + numSheep + " sheep after " + monthNumber + " month(s)!");
   }
 
-  // <second conditional goes here>
+}
+// tmp();
 
-  numSheep*=4;
-  console.log("There will be " + numSheep + " sheep after " + monthNumber + " month(s)!");
+function jsBuiltIns(){
+  var gotName = false;
+  while(gotName === false){
+    var userName = prompt('Yo passenger! what is your name?');
+
+    if(confirm("Are you sure your name is: " + userName + "?")){
+      alert("'Sup " + userName + "!");
+      gotName = true;
+    }
+  }
 }
 
-}
-tmp();
+// jsBuiltIns();
 
-// xxx = 25;
-// console.log(xxx /= 4);
+
+
+function xyz(){
+  var userAge = prompt("What's your age, user?");
+  var ageIsCorrect = confirm("You entered " + userAge + ". Is this correct?");
+  if(ageIsCorrect){
+    alert("correct age");
+  } else {
+    alert("try again!")
+  }
+
+}
+xyz();

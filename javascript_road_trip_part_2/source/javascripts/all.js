@@ -2,5 +2,6 @@
 // require_tree .
 // require "while_loop"
 // require "for_loop"
-//= require "hooverDam"
+// require "hooverDam"
 // require "tmp"
+//= require "functions"
