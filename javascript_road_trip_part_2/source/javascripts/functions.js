@@ -13,7 +13,7 @@ function countE(){
   var phrase = prompt('Which phrase would you like to examin?');
   // alert(typeof(phrase));
   if(typeof(phrase) != "string"){
-    alert('Thanks not a valid entry DUDE!');
+    alert("That's not a valid entry DUDE!");
     return false;
   } else {
     var eCount = 0;
@@ -27,4 +27,31 @@ function countE(){
   }
 }
 
-countE();
+// countE();
+
+// curSheepPop: current population of sheep
+// avaRan: amount of park rangers available during the day
+function feedPerRanger (curSheepPop, avaRan) {
+  // sheep needs 2 lbs of food per day
+  // var curSheepPop = prompt("What's the current population of sheep?");
+  // var avaRan = prompt("What's the amount of park rangers available today?")
+  var foodNeeded = (curSheepPop*2) / avaRan;
+  alert("Each Park Ranger should load " + foodNeeded + "lb(s) of feed into his/her BART today.");
+
+}
+
+// feedPerRanger (100000, 100);
+
+function changePowerTotal(totalCurrentPowerGenerated, generatorID, generatorNewStatus, powerGenerated){
+  if (generatorNewStatus === "on"){
+    totalCurrentPowerGenerated += powerGenerated;
+    alert("Generator #" + generatorID + " is now on, adding " + powerGenerated + " MW, for a total of " + totalCurrentPowerGenerated + " MW!");
+    return totalCurrentPowerGenerated;
+  } else {
+    totalCurrentPowerGenerated -= powerGenerated;
+    alert("Generator #" + generatorID + " is now off, removing " + powerGenerated + " MW, for a total of " + totalCurrentPowerGenerated + " MW!");
+    return totalCurrentPowerGenerated;
+  }
+}
+
+changePowerTotal(200, 5, "off", 50);
