@@ -1,0 +1,4 @@
+http://coffeescript.org/
+http://coffeescriptcookbook.com/
+http://railscasts.com/episodes/267-coffeescript-basics
+http://autotelicum.github.io/Smooth-CoffeeScript/

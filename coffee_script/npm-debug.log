@@ -1,0 +1,199 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'coffeelint' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'coffeelint', null ]
+6 verbose cache add name=undefined spec="coffeelint" args=["coffeelint",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'coffeelint',
+7 verbose parsed url   path: 'coffeelint',
+7 verbose parsed url   href: 'coffeelint' }
+8 silly lockFile 22620c26-coffeelint coffeelint
+9 verbose lock coffeelint /home/karim/.npm/22620c26-coffeelint.lock
+10 silly lockFile 22620c26-coffeelint coffeelint
+11 silly lockFile 22620c26-coffeelint coffeelint
+12 verbose addNamed [ 'coffeelint', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile d146c492-coffeelint coffeelint@
+15 verbose lock coffeelint@ /home/karim/.npm/d146c492-coffeelint.lock
+16 silly addNameRange { name: 'coffeelint', range: '*', hasData: false }
+17 verbose request where is /coffeelint
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 56f42acd7ad5dc9c
+20 verbose url raw /coffeelint
+21 verbose url resolving [ 'https://registry.npmjs.org/', './coffeelint' ]
+22 verbose url resolved https://registry.npmjs.org/coffeelint
+23 verbose request where is https://registry.npmjs.org/coffeelint
+24 info trying registry request attempt 1 at 05:43:29
+25 http GET https://registry.npmjs.org/coffeelint
+26 http 200 https://registry.npmjs.org/coffeelint
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Thu, 14 Aug 2014 09:43:30 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"CZJOL88RBZKGBN7E0DX442980"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '69470',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '245',
+27 silly registry.get     'x-served-by': 'cache-iad2127-IAD',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1408009410.090140,VS0,VE416',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'coffeelint', range: '*', hasData: true }
+29 silly addNameRange versions [ 'coffeelint',
+29 silly addNameRange   [ '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.0.5',
+29 silly addNameRange     '0.0.6',
+29 silly addNameRange     '0.0.7',
+29 silly addNameRange     '0.1.0',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.5.3',
+29 silly addNameRange     '0.5.4',
+29 silly addNameRange     '0.5.5',
+29 silly addNameRange     '0.5.6',
+29 silly addNameRange     '0.5.7',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.6.1',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '1.0.2',
+29 silly addNameRange     '1.0.3',
+29 silly addNameRange     '1.0.4',
+29 silly addNameRange     '1.0.5',
+29 silly addNameRange     '1.0.6',
+29 silly addNameRange     '1.0.7',
+29 silly addNameRange     '1.0.8',
+29 silly addNameRange     '1.1.0',
+29 silly addNameRange     '1.2.0',
+29 silly addNameRange     '1.3.0',
+29 silly addNameRange     '1.4.0',
+29 silly addNameRange     '1.4.1',
+29 silly addNameRange     '1.5.0',
+29 silly addNameRange     '1.5.1',
+29 silly addNameRange     '1.5.2',
+29 silly addNameRange     '1.5.3',
+29 silly addNameRange     '1.5.4',
+29 silly addNameRange     '1.5.5' ] ]
+30 verbose addNamed [ 'coffeelint', '1.5.5' ]
+31 verbose addNamed [ '1.5.5', '1.5.5' ]
+32 silly lockFile b1ce88b2-coffeelint-1-5-5 coffeelint@1.5.5
+33 verbose lock coffeelint@1.5.5 /home/karim/.npm/b1ce88b2-coffeelint-1-5-5.lock
+34 silly lockFile 86a842ab--coffeelint-coffeelint-1-5-5-tgz https://registry.npmjs.org/coffeelint/-/coffeelint-1.5.5.tgz
+35 verbose lock https://registry.npmjs.org/coffeelint/-/coffeelint-1.5.5.tgz /home/karim/.npm/86a842ab--coffeelint-coffeelint-1-5-5-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffeelint/-/coffeelint-1.5.5.tgz',
+36 verbose addRemoteTarball   '0b697cfd109dd23fcd2d70647e6f37f2d266f3f4' ]
+37 info retry fetch attempt 1 at 05:43:30
+38 verbose fetch to= /tmp/npm-5282-6CP6a2sU/registry.npmjs.org/coffeelint/-/coffeelint-1.5.5.tgz
+39 http GET https://registry.npmjs.org/coffeelint/-/coffeelint-1.5.5.tgz
+40 http 200 https://registry.npmjs.org/coffeelint/-/coffeelint-1.5.5.tgz
+41 silly lockFile 86a842ab--coffeelint-coffeelint-1-5-5-tgz https://registry.npmjs.org/coffeelint/-/coffeelint-1.5.5.tgz
+42 silly lockFile 86a842ab--coffeelint-coffeelint-1-5-5-tgz https://registry.npmjs.org/coffeelint/-/coffeelint-1.5.5.tgz
+43 silly lockFile b1ce88b2-coffeelint-1-5-5 coffeelint@1.5.5
+44 silly lockFile b1ce88b2-coffeelint-1-5-5 coffeelint@1.5.5
+45 silly lockFile d146c492-coffeelint coffeelint@
+46 silly lockFile d146c492-coffeelint coffeelint@
+47 silly resolved [ { name: 'coffeelint',
+47 silly resolved     description: 'Lint your CoffeeScript',
+47 silly resolved     version: '1.5.5',
+47 silly resolved     homepage: 'http://www.coffeelint.org',
+47 silly resolved     keywords: [ 'lint', 'coffeescript', 'coffee-script' ],
+47 silly resolved     author: { name: 'Matthew Perpick', email: 'clutchski@gmail.com' },
+47 silly resolved     main: './lib/coffeelint.js',
+47 silly resolved     engines: { npm: '>=1.3.7', node: '>=0.8.0' },
+47 silly resolved     repository:
+47 silly resolved      { type: 'git',
+47 silly resolved        url: 'git://github.com/clutchski/coffeelint.git' },
+47 silly resolved     bin: { coffeelint: './bin/coffeelint' },
+47 silly resolved     dependencies:
+47 silly resolved      { browserify: '~3.37',
+47 silly resolved        'coffee-script': '~1.7',
+47 silly resolved        coffeeify: '~0.6.0',
+47 silly resolved        glob: '^4.0.0',
+47 silly resolved        optimist: '^0.6.1',
+47 silly resolved        resolve: '^0.6.3' },
+47 silly resolved     devDependencies: { vows: '>=0.6.0', underscore: '>=1.4.4' },
+47 silly resolved     licenses: [ [Object] ],
+47 silly resolved     scripts:
+47 silly resolved      { pretest: 'cake compile',
+47 silly resolved        test: 'coffee vowsrunner.coffee --spec test/*.coffee test/*.litcoffee',
+47 silly resolved        posttest: 'npm run lint',
+47 silly resolved        prepublish: 'cake prepublish',
+47 silly resolved        publish: 'cake publish',
+47 silly resolved        install: 'cake install',
+47 silly resolved        lint: 'cake compile && ./bin/coffeelint -f coffeelint.json src/*.coffee src/rules/*.coffee test/*.coffee test/*.litcoffee',
+47 silly resolved        'lint-csv': 'cake compile && ./bin/coffeelint --csv -f coffeelint.json src/*.coffee test/*.coffee',
+47 silly resolved        'lint-jslint': 'cake compile && ./bin/coffeelint --jslint -f coffeelint.json src/*.coffee test/*.coffee',
+47 silly resolved        compile: 'cake compile' },
+47 silly resolved     gitHead: 'a0e1c39f30964cdfc8e8744d531d9cd9622a648f',
+47 silly resolved     bugs: { url: 'https://github.com/clutchski/coffeelint/issues' },
+47 silly resolved     _id: 'coffeelint@1.5.5',
+47 silly resolved     _shasum: '0b697cfd109dd23fcd2d70647e6f37f2d266f3f4',
+47 silly resolved     _from: 'coffeelint@',
+47 silly resolved     _npmVersion: '1.4.13',
+47 silly resolved     _npmUser: { name: 'asaayers', email: 'Asa@AsaAyers.com' },
+47 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+47 silly resolved     dist:
+47 silly resolved      { shasum: '0b697cfd109dd23fcd2d70647e6f37f2d266f3f4',
+47 silly resolved        tarball: 'http://registry.npmjs.org/coffeelint/-/coffeelint-1.5.5.tgz' },
+47 silly resolved     directories: {},
+47 silly resolved     _resolved: 'https://registry.npmjs.org/coffeelint/-/coffeelint-1.5.5.tgz' } ]
+48 info install coffeelint@1.5.5 into /usr/lib
+49 info installOne coffeelint@1.5.5
+50 verbose lib/node_modules/coffeelint unbuild
+51 verbose tar unpack /home/karim/.npm/coffeelint/1.5.5/package.tgz
+52 silly lockFile 842164e0--usr-lib-node-modules-coffeelint tar:///usr/lib/node_modules/coffeelint
+53 verbose lock tar:///usr/lib/node_modules/coffeelint /home/karim/.npm/842164e0--usr-lib-node-modules-coffeelint.lock
+54 silly lockFile c2082cfd-npm-coffeelint-1-5-5-package-tgz tar:///home/karim/.npm/coffeelint/1.5.5/package.tgz
+55 verbose lock tar:///home/karim/.npm/coffeelint/1.5.5/package.tgz /home/karim/.npm/c2082cfd-npm-coffeelint-1-5-5-package-tgz.lock
+56 silly gunzTarPerm modes [ '775', '664' ]
+57 error Error: EACCES, mkdir '/usr/lib/node_modules/coffeelint'
+57 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/coffeelint']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/usr/lib/node_modules/coffeelint',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: '/usr/lib/node_modules/coffeelint',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+57 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+57 error      'Object.oncomplete (fs.js:107:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 error System Linux 3.13.0-33-generic
+60 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "coffeelint"
+61 error cwd /home/karim/code_zone/code_school/coffeescript
+62 error node -v v0.10.30
+63 error npm -v 1.4.21
+64 error path /usr/lib/node_modules/coffeelint
+65 error fstream_path /usr/lib/node_modules/coffeelint
+66 error fstream_type Directory
+67 error fstream_class DirWriter
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/usr/lib/node_modules/coffeelint'
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+71 error fstream_stack Object.oncomplete (fs.js:107:15)
+72 verbose exit [ 3, true ]
