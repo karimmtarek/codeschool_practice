@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app="store">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "The Middleman" %></title>
+
+    <%= stylesheet_link_tag "bootstrap", "bootstrap-theme", "styles" %>
+    <%= javascript_include_tag  "angular", "jquery-2.1.1", "bootstrap", "app" %>
+  </head>
+
+  <body class="<%= page_classes %>" ng-controller="StoreController as store">
+    <%= yield %>
+  </body>
+</html>

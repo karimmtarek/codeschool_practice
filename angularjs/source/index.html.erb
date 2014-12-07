@@ -1,0 +1,42 @@
+---
+title: Welcome to Angular.js
+---
+<!-- ng-controller > directive -->
+<!-- StoreController > controller name -->
+<!-- store > alias -->
+<ul class="list-group">
+  <li class="list-group-item" ng-repeat="product in store.products | orderBy:'price'">
+
+    <!-- product title directive -->
+    <product-title></product-title>
+    <button ng-show="product.canPurchace"> Add to cart </button>
+    <section ng-controller="PanelController as panel">
+
+      <!-- nav pills attribute directive -->
+      <ul class="nav nav-pills" nav-pills></ul>
+      <div class="panel" ng-show="panel.isSelected(1)">
+        <h4>Description</h4>
+        <p> {{ product.description }} </p>
+      </div>
+      <div class="panel" ng-show="panel.isSelected(2)">
+        <h4>Specifications</h4>
+        <p>empty</p>
+      </div>
+      <div class="panel" ng-show="panel.isSelected(3)">
+        <h4>Reviews</h4>
+        <blockquote ng-repeat="review in product.reviews">
+          <b>Stars: {{review.stars}}</b><br>
+          {{review.body}}
+          <br><cite>— {{review.author}}</cite>
+        </blockquote>
+
+        <!-- review form directive -->
+        <review-form></review-form>
+      </div>
+      <div class="panel" ng-show="panel.isSelected(4)">
+        <h4>Image</h4>
+        <img ng-src="{{ product.images[0].full }}" alt="">
+      </div>
+    </section>
+  </li>
+</ul>
