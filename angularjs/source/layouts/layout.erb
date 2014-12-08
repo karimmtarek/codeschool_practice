@@ -10,7 +10,7 @@
     <title><%= current_page.data.title || "The Middleman" %></title>
 
     <%= stylesheet_link_tag "bootstrap", "bootstrap-theme", "styles" %>
-    <%= javascript_include_tag  "angular", "jquery-2.1.1", "bootstrap", "app" %>
+    <%= javascript_include_tag  "angular", "jquery-2.1.1", "bootstrap", "app", "products", "store-controllers" %>
   </head>
 
   <body class="<%= page_classes %>" ng-controller="StoreController as store">

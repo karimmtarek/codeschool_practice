@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Product #1",
+    "price": 2,
+    "description": "Product #1 description",
+    "images": [
+      {
+        "full": "http://karimtarek.com/img/portfolio/projects-thumbs_0010_web-cream.png",
+        "thumb": ""
+      }
+    ],
+    "reviews": [
+      {
+        "stars": 5,
+        "body": "I love this products",
+        "author": "joe@thomas.com"
+      },
+      {
+        "stars": 3,
+        "body": "Not really sure about this products",
+        "author": "john@du.com"
+      }
+    ],
+    "canPurchace": false,
+    "soldOut": false
+  },
+  {
+    "name": "Product #2",
+    "price": 5.95,
+    "description": "Product #2 description",
+    "images": [
+      {
+        "full": "http://karimtarek.com/img/portfolio/projects-thumbs_0004_msf-me.png",
+        "thumb": ""
+      }
+    ],
+    "reviews": [],
+    "canPurchace": false,
+    "soldOut": false
+  },
+  {
+    "name": "Product #3",
+    "price": 4.95,
+    "description": "Product #3 description",
+    "images": [
+      {
+        "full": "http://karimtarek.com/img/portfolio/projects-thumbs_0001_qaswlasq.png",
+        "thumb": ""
+      }
+    ],
+    "reviews": [],
+    "canPurchace": true,
+    "soldOut": false
+  }
+]
